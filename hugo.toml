@@ -1,0 +1,4 @@
+title = 'ICPC Indonesia'
+baseURL = 'https://icpc-idn.github.io/web-icpc/'
+locale = 'en-us'
+theme = 'icpc-idn-v1'

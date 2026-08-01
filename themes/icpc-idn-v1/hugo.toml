@@ -1,0 +1,8 @@
+title = 'ICPC Indonesia v1'
+baseURL = 'https://example.org/'
+locale = 'en-us'
+
+[module]
+[module.hugoVersion]
+extended = false
+min = '0.146.0'
