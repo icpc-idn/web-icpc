@@ -1,9 +1,9 @@
-{{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </section>
-  {{ end }}
-{{ end }}
+{{- define "header" }}
+  {{- with partial "components/navbar" . }}{{- end }}
+{{- end }}
+
+{{- define "main" }}
+  <article class="m-0 p-3">
+    {{ .Content }}
+  </article>
+{{- end }}

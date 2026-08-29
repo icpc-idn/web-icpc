@@ -1,0 +1,19 @@
+{{- /*
+  Renders a navbar.
+
+  @context {.} page The current page.
+*/}}
+
+
+
+{{- $contestSection := partialCached "func/contestSection" . .Section }}
+
+<div class="m-0 p-3 text-bg-dark container-fluid">
+  {{- with (cond $contestSection .FirstSection site.Home) }}
+    <a class="navbar-brand text-reset" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{- end }}
+
+  <span class="d-md-none float-end" role="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+    {{ inner . }}
+  </span>
+</div>

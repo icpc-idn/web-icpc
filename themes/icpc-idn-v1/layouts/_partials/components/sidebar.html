@@ -1,0 +1,69 @@
+{{- /*
+  Renders a sidebar menu.
+
+  @context {.} page The current page.
+*/}}
+
+
+
+{{- $data := partialCached "func/contestSidebarData" . .Section }}
+
+<div class="m-0 p-0 d-md-none">
+  {{- with partialCached "components/navbar" . .Section }}
+    <i class="bi bi-x-lg text-light"></i>
+  {{- end }}
+</div>
+
+<div class="m-0 p-3">
+  <ul class="list-unstyled">
+    {{- range $data.main }}
+      <li>{{- partial "inline/components/sidebar/entry" . }}</li>
+    {{- end }}
+  </ul>
+
+  {{- range $data.competitions }}
+    {{- partial "inline/components/sidebar/section" . }}
+  {{- end }}
+
+  {{- with $data.externals }}
+    <hr />
+    <ul class="list-unstyled">
+      {{- range . }}
+        <li>{{- partial "inline/components/sidebar/entry" . }}</li>
+      {{- end }}
+    </ul>
+  {{- end }}
+</div>
+
+
+
+{{- define "_partials/inline/components/sidebar/section" }}
+  <div>
+    {{- partial "inline/components/sidebar/entry" . }}
+    {{- partial "inline/components/sidebar/walk" .page }}
+  </div>
+{{- end }}
+
+
+{{- define "_partials/inline/components/sidebar/walk" }}
+  <ul>
+    {{- range .Pages.ByWeight }}
+      <li>
+        {{- partial "inline/components/sidebar/entry" (dict "page" .) }}
+        {{- partial "inline/components/sidebar/walk" . }}
+      </li>
+    {{- end }}
+    </li>
+  </ul>
+{{- end }}
+
+
+{{- define "_partials/inline/components/sidebar/entry" }}
+  {{- $icon := .icon }}
+  {{- with .page }}
+    {{- with $icon }}<i class="bi bi-{{ . }}"></i>{{- end }}
+    <a {{- printf " href=%q" .RelPermalink | safeHTMLAttr -}}>
+      {{- default .Title .Params.MenuTitle }}
+    </a>
+  {{- end }}
+{{- end }}

@@ -1,0 +1,9 @@
+{{- $contestSection := partialCached "func/contestSection" . .Section }}
+
+{{- with partial "components/navbar" . }}
+  <i class="bi bi-list text-light"></i>
+{{- end }}
+
+{{- if $contestSection }}
+  {{- partialCached "cached/banner" . .Section }}
+{{- end }}

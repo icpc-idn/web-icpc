@@ -1,0 +1,5 @@
+buildDrafts = false
+buildFuture = true
+
+[minify]
+minifyOutput = false

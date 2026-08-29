@@ -1,0 +1,3 @@
+{{- $contestSection := partialCached "func/contestSection" . .Section }}
+
+&copy; {{ cond $contestSection .Section (now | dateFormat "2006") }} ICPC Indonesia

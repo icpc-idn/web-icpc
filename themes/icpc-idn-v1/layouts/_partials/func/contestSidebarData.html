@@ -1,0 +1,31 @@
+{{- /*
+  Returns contest-related sidebar data.
+
+  @context {.}        page   The current page.
+  @variant {.Section} string The first section slug.
+*/}}
+
+{{- $data := index hugo.Data .Section "sidebar" }}
+
+{{- return (dict
+  "main"           (partial "inline/func/contestSidebarData/pageLookup" $data.main)
+  "competitions"   (partial "inline/func/contestSidebarData/pageLookup" $data.competitions)
+  "externals"      (partial "inline/func/contestSidebarData/pageLookup" $data.externals)
+) }}
+
+
+
+{{- define "_partials/inline/func/contestSidebarData/pageLookup" }}
+  {{- $result := slice }}
+
+  {{- range . }}
+    {{- $page := dict "RelPermalink" .pageRef "Title" .title }}
+    {{- if not .external }}
+      {{- $page = site.GetPage .pageRef }}
+    {{- end }}
+
+    {{ $result = $result | append (dict "icon" .icon "page" $page) }}
+  {{- end }}
+
+  {{- return $result }}
+{{- end }}

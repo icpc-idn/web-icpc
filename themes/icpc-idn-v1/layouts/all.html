@@ -1,0 +1,7 @@
+{{- define "main" }}
+  {{- if in (slice "section" "page") .Kind }}
+    {{- with partial "base/body-main" . }}{{- .Content }}{{- end }}
+  {{- else }}
+    {{- errorf "Unsupported page kind: %s" .Kind }}
+  {{- end }}
+{{- end }}

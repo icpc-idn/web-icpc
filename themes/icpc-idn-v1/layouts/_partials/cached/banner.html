@@ -1,0 +1,9 @@
+{{- $img := resources.Get "generic-banner.png" }}
+{{- with resources.Get (printf "%s/banner.png" .Section) }}
+  {{- $img = . }}
+{{- end }}
+
+<div
+  id="banner" class="d-print-none"
+  style="background: url({{ $img.RelPermalink }}) center center/contain no-repeat; height: 180px; width: 100%;"
+></div>

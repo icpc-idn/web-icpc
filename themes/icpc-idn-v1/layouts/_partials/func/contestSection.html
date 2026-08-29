@@ -1,0 +1,8 @@
+{{- /*
+  Checks whether first section of given page is a contest-related annual section.
+
+  @context {.}        page   The current page.
+  @variant {.Section} string The first section slug.
+*/}}
+
+{{- return not .FirstSection.Params.staticSection }}

@@ -1,0 +1,13 @@
+<span class="row g-0">
+  <aside id="sidebar" aria-labelledby="sidebar" class="offcanvas-md offcanvas-start d-md-inline-block col-md-4 p-0" style="max-width: 256px;">
+    {{- partial "components/sidebar" . }}
+  </aside>
+
+  <article class="col p-3">
+    <header class="mt4 w-100">
+      <h1>{{- .Title }}</h1>
+    </header>
+
+    {{ inner . }}
+  </article>
+</span>

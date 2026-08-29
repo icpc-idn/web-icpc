@@ -1,0 +1,11 @@
+disableKinds = ['rss', 'taxonomy', 'term']
+enableGitInfo = true
+enableRobotsTXT = true
+
+[frontmatter]
+publishDate = [':git', 'publishdate', 'date']
+lastmod = [':git', 'lastmod', 'publishdate', 'date']
+
+[services]
+[services.rss]
+limit = 25

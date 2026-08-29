@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
+
 <head>
-  {{ partial "head.html" . }}
+  {{- partial "base/head" . }}
 </head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
+
+<body class="m-0 p-0 bg-light">
+  <header class="m-0 p-0">
+    {{- block "header" . }}{{- partial "base/body-header" . }}{{- end }}
   </header>
-  <main>
-    {{ block "main" . }}{{ end }}
+
+  <main class="my-0 p-0 d-block container-fluid" style="max-width: 960px;">
+    {{- block "main" . }}{{- end }}
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
+
+  <footer class="m-0 p-3 text-bg-dark text-center">
+    {{- block "footer" . }}{{- partial "base/body-footer" . }}{{- end }}
   </footer>
 </body>
+
 </html>
