@@ -6,6 +6,10 @@ enableRobotsTXT = true
 publishDate = [':git', 'publishdate', 'date']
 lastmod = [':git', 'lastmod', 'publishdate', 'date']
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [services]
 [services.rss]
 limit = 25
