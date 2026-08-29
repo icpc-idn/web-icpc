@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://icpc-idn.github.io/sitemap.xml
