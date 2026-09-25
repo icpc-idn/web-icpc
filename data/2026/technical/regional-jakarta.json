@@ -1,0 +1,37 @@
+{
+  "ccs": {
+    "primary": {
+      "name": "DOMjudge",
+      "version": ""
+    }
+  },
+  "compilers": [
+    {
+      "name": "C",
+      "version": "gcc 14.2",
+      "compile": "gcc -x c -Wall -static -pipe -DONLINE_JUDGE -DDOMJUDGE -g -O2 -std=gnu11 -static -o \"$DEST\" \"$@\" -lm",
+      "run": "\"$DEST\" < infile > outfile"
+    },
+    {
+      "name": "C++",
+      "version": "g++ 14.2",
+      "compile": "g++ -x c++ -Wall -static -pipe -DONLINE_JUDGE -DDOMJUDGE -g -O2 -std=gnu++23 -static -o \"$DEST\" \"$@\"",
+      "run": "\"$DEST\" < infile > outfile`"
+    },
+    {
+      "name": "Java",
+      "version": "openjdk 21.0.10",
+      "compile": "javac -encoding UTF-8 -XX:+UseSerialGC -Xss64m -DONLINE_JUDGE -DDOMJUDGE -sourcepath . -d . \"$@\"",
+      "run": "java -Dfile.encoding=UTF-8 -XX:+UseSerialGC -Xss64m -Xms1920m -Xmx1920m MainClass < infile > outfile"
+    },
+    {
+      "name": "Python 3",
+      "version": "python 3.9.18",
+      "compile": "pypy3 -m py_compile \"$@\"",
+      "run": "pypy3 \"$@\" < infile > outfile"
+    },
+    {
+      "name": "Kotlin"
+    }
+  ]
+}

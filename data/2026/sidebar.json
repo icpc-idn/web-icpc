@@ -1,0 +1,43 @@
+{
+  "main": [
+    {
+      "icon": "house",
+      "pageRef": "/2026/"
+    },
+    {
+      "icon": "person-fill",
+      "pageRef": "/2026/organizers/"
+    }
+  ],
+  "competitions": [
+    {
+      "title": "Compfest",
+      "pageRef": "https://compfest.id/competition/cpc",
+      "external": true
+    },
+    {
+      "pageRef": "/2026/provincial/inc/"
+    },
+    {
+      "pageRef": "/2026/regional/"
+    }
+  ],
+  "externals": [
+    {
+      "icon": "link-45deg",
+      "pageRef": "/about/"
+    },
+    {
+      "icon": "link-45deg",
+      "title": "ICPC Asia Pacific",
+      "pageRef": "https://icpc.jp/apac/",
+      "external": true
+    },
+    {
+      "icon": "link-45deg",
+      "title": "ICPC Global",
+      "pageRef": "https://icpc.global/",
+      "external": true
+    }
+  ]
+}
