@@ -1,0 +1,12 @@
+{{- with index hugo.Data (.Get "year") "schedule" (.Get "src") }}
+  {{- range sort .news "timestamp" "desc" }}
+    <div class="alert alert-primary">
+      <i>{{ .timestamp | dateFormat "2006-01-02" }}</i><br />
+      <div>{{ .message | safeHTML }}</div>
+    </div>
+  {{- else }}
+    <div class="alert alert-secondary"><i>No news yet. Please come back later.</i></div>
+  {{- end }}
+{{- else }}
+  <div class="alert alert-secondary"><i>No news yet. Please come back later.</i></div>
+{{- end }}

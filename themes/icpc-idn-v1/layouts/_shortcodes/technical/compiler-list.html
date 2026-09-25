@@ -1,0 +1,7 @@
+{{- with index hugo.Data (.Get "year") "technical" (.Get "src") }}
+  <ul>
+    {{- range .compilers }}
+      <li>{{ .name }}</li>
+    {{- end }}
+  </ul>
+{{- end }}

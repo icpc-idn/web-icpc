@@ -1,0 +1,13 @@
+{{- /* Comment for removing whitespaces */ -}}
+
+{{- $verdict := (.Get 0) -}}
+{{- $color := "red" -}}
+{{- if eq ($verdict | lower) "correct" -}}
+  {{- $color = "green" -}}
+{{- end -}}
+
+<span class="text-uppercase font-monospace" style="color: {{ $color }}">
+  {{- $verdict | markdownify -}}
+</span>
+
+{{- /* Comment for removing whitespaces */ -}}

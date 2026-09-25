@@ -1,0 +1,9 @@
+{{- /* Comment for removing whitespaces */ -}}
+
+<span
+  {{- range $key, $value := .Params }}
+    {{- printf " %s=%q" $key $value | safeHTMLAttr -}}
+  {{- end }}
+>{{- .InnerDeindent | markdownify -}}</span>
+
+{{- /* Comment for removing whitespaces */ -}}

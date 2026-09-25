@@ -1,0 +1,38 @@
+{{- with index hugo.Data (.Get "year") "schedule" (.Get "src") }}
+  <ul>
+    {{- range .schedule }}
+      {{- $startDate := .startTimestamp | dateFormat "02 January 2006" }}
+      {{- $endDate := .endTimestamp | dateFormat "02 January 2006" }}
+      {{- $startTime := .startTimestamp | dateFormat "15:04" }}
+      {{- $endTime := .endTimestamp | dateFormat "15:04" }}
+
+      {{- $date := (.startTimestamp | dateFormat "Monday, 02 January 2006") }}
+      {{- $time := printf "from %s to %s (%s)" $startTime $endTime (.startTimestamp | dateFormat "GMT-07") }}
+
+      {{- if .important }}
+        {{- $startDate = printf "<b>%s</b>" $startDate }}
+        {{- $endDate = printf "<b>%s</b>" $endDate }}
+        {{- $date = printf "<b>%s</b>" $date }}
+        {{- $time = printf "<b>%s</b>" $time }}
+      {{- end }}
+
+      {{- $schedule := printf "%s to %s" $startDate $endDate }}
+      {{- if eq $startDate $endDate }}
+        {{- $schedule = printf "%s from %s" $date $time }}
+        {{- if eq $startTime $endTime }}
+          {{- $schedule = $date }}
+        {{- end }}
+      {{- end }}
+
+      {{- if not .startTimestamp }}
+        {{- $schedule = "TBA" }}
+      {{- end }}
+
+      <li>{{ .title }}: {{ $schedule | safeHTML }}</li>
+    {{- else }}
+      <div class="alert alert-secondary"><i>No published schedule yet. Please come back later.</i></div>
+    {{- end }}
+  </ul>
+{{- else }}
+  <div class="alert alert-secondary"><i>No published schedule yet. Please come back later.</i></div>
+{{- end }}
