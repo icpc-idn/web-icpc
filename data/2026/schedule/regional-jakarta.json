@@ -1,0 +1,27 @@
+{
+  "contestDate": "2026-11-29T10:00:00+07:00",
+  "schedule": [
+    {
+      "title": "Registration",
+      "startTimestamp": "2026-08-28T00:00:00+07:00",
+      "endTimestamp": "2026-11-10T00:00:00+07:00"
+    },
+    {
+      "title": "Practice Session",
+      "startTimestamp": "2026-11-28T00:00:00+07:00",
+      "endTimestamp": "2026-11-28T00:00:00+07:00"
+    },
+    {
+      "title": "Contest Day",
+      "important": true,
+      "startTimestamp": "2026-11-29T10:00:00+07:00",
+      "endTimestamp": "2026-11-29T15:00:00+07:00"
+    }
+  ],
+  "news": [
+    {
+      "timestamp": "2026-08-28T00:00:00+07:00",
+      "message": "Registration is open at <a href=\"https://icpc.global/regionals/finder/Jakarta-2027\">https://icpc.global/regionals/finder/Jakarta-2027</a>"
+    }
+  ]
+}
