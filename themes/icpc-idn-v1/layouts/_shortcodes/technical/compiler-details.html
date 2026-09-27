@@ -1,4 +1,4 @@
-{{- with index hugo.Data (.Get "year") "technical" (.Get "src") }}
+{{- with index hugo.Data (.Get "year") (.Get "src") "technical" }}
   <ul>
     {{- range .compilers }}
       <li>{{ .name }}
@@ -16,4 +16,6 @@
       </li>
     {{- end }}
   </ul>
+{{- else }}
+  <div class="alert alert-secondary fst-italic">Undecided yet. Please come back later.</div>
 {{- end }}

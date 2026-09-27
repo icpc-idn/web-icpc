@@ -1,6 +1,6 @@
-{{- with index hugo.Data (.Get "year") "schedule" (.Get "src") }}
+{{- with index hugo.Data (.Get "year") (.Get "src") "overview" }}
   <ul>
-    {{- range .schedule }}
+    {{- range sort .schedule "startTimestamp" "asc" }}
       {{- $startDate := .startTimestamp | dateFormat "02 January 2006" }}
       {{- $endDate := .endTimestamp | dateFormat "02 January 2006" }}
       {{- $startTime := .startTimestamp | dateFormat "15:04" }}
@@ -30,9 +30,9 @@
 
       <li>{{ .title }}: {{ $schedule | safeHTML }}</li>
     {{- else }}
-      <div class="alert alert-secondary"><i>No published schedule yet. Please come back later.</i></div>
+      <div class="alert alert-secondary fst-italic">No published schedule yet. Please come back later.</div>
     {{- end }}
   </ul>
 {{- else }}
-  <div class="alert alert-secondary"><i>No published schedule yet. Please come back later.</i></div>
+  <div class="alert alert-secondary fst-italic">No published schedule yet. Please come back later.</div>
 {{- end }}

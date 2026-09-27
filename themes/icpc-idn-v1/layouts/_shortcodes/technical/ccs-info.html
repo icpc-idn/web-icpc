@@ -1,8 +1,10 @@
-{{ with index hugo.Data (.Get "year") "technical" (.Get "src") "ccs" (.Get "type") -}}
+{{- with index hugo.Data (.Get "year") (.Get "src") "technical" "ccs" (.Get "type") -}}
   {{- $name := .name -}}
   {{- $version := "version TBA" -}}
   {{- if .version -}}
     {{- $version = .version -}}
   {{- end -}}
   {{ $name }} ({{ $version }})
+{{- else }}
+  ??? (<i>undecided yet</i>)
 {{- end }}
