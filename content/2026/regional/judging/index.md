@@ -1,7 +1,7 @@
 +++
 title = 'Judging System'
 date = '2026-08-02T00:00:00+07:00'
-weight = 30
+weight = 41
 +++
 
 
