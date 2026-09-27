@@ -86,7 +86,7 @@ The following are NOT allowed in the contest area:
   * People other than the participating team members.
 
 
-{{< figure src="contrabands.png" width="500px" class="figure d-block text-center" >}}
+{{< figure src="contrabands.jpg" width="500px" class="figure d-block text-center" >}}
 
 {{< text/span class="d-block text-center small" >}}
   Fig 1. Example of INVALID contest area due to having bags, smart watches, smartphone, and a hard-copy of TRD on the table.
@@ -136,7 +136,7 @@ As examples:
 
 All team members in the contest area as well as their belongings must be visible through the recording, as shown in Fig 3.
 
-{{< figure src="workstation-layout.png" width="500px" class="figure d-block text-center" >}}
+{{< figure src="workstation-layout.jpg" width="500px" class="figure d-block text-center" >}}
 
 {{< text/span class="d-block text-center small" >}}
   Fig 3. Example of contest area layout.
