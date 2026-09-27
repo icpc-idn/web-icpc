@@ -193,7 +193,6 @@ Teams are ranked according to:
 The total time is the sum of the time consumed for each solved problem (in minutes).
 The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first correct solution plus 20 penalty minutes for every previously incorrect solution for that problem.
 {{< text/underline >}}Submissions with a **{{< text/verdict COMPILER-ERROR >}}** verdict will not be penalized{{< /text/underline >}}.
-<!-- TODO: change this -->
 
 
 ### Pre-Contest

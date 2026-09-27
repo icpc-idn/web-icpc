@@ -6,10 +6,11 @@ enableRobotsTXT = true
 publishDate = [':git', 'publishdate', 'date']
 lastmod = ['lastmod', ':git', 'publishdate', 'date']
 
-[caches]
 [caches.images]
 dir = ':cacheDir/images'
 
-[services]
 [services.rss]
 limit = 25
+
+[markup.goldmark.renderer]
+unsafe = true
