@@ -34,4 +34,4 @@ Coaches are responsible for completing the team registration via ICPC global.
 ### Contact Information
 
   * Email: lombati@binus.edu
-  * WhatsApp: [+6287864892889](https://wa.me/+6287864892889)
+  * WhatsApp: {{< whatsapp "+6287864892889" >}}

@@ -49,4 +49,4 @@ The INC 2026 Committee will review your payment, and you will receive a **separa
 ### Contact Information
 
   * Email: lombati@binus.edu
-  * WhatsApp: [+6287864892889](https://wa.me/+6287864892889)
+  * WhatsApp: {{< whatsapp "+6287864892889" >}}
