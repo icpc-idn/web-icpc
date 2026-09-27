@@ -4,7 +4,7 @@ enableRobotsTXT = true
 
 [frontmatter]
 publishDate = [':git', 'publishdate', 'date']
-lastmod = [':git', 'lastmod', 'publishdate', 'date']
+lastmod = ['lastmod', ':git', 'publishdate', 'date']
 
 [caches]
 [caches.images]
