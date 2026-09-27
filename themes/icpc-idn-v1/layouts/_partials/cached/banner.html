@@ -1,5 +1,5 @@
 {{- $img := resources.Get "generic-banner.png" }}
-{{- with resources.Get (printf "%s/banner.png" .Section) }}
+{{- with .FirstSection.Resources.Get "assets/banner.png" }}
   {{- $img = . }}
 {{- end }}
 
