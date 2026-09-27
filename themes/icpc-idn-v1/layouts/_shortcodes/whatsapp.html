@@ -1,0 +1,12 @@
+{{- /* Comment for removing whitespaces */ -}}
+
+{{- $phone := .Get 0 -}}
+{{- $url := print "https://wa.me/" $phone -}}
+
+{{- if .Get 1 -}}
+  {{- $url = print $url "?text=" (.Get 1 | urlquery) -}}
+{{- end -}}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $phone }}</a>
+
+{{- /* Comment for removing whitespaces */ -}}
