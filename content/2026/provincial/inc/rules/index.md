@@ -202,7 +202,7 @@ Teams are not required to attend the practice session.
 However, the committee encourages teams to participate to become familiar with the contest environment.
 Teams access DOMJudge for INC 2026 through their self-prepared computer with internet access.
 The information regarding DOMjudge will be sent before the practice session.
-If the team still has not received any email during the practice session, please contact us at [lombati@binus.edu](mailto:lombati@binus.edu).
+If the team still has not received any email during the practice session, please contact us at lombati@binus.edu.
 
 
 ### Frequently Asked Questions (FAQs)
