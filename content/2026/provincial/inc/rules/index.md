@@ -25,10 +25,10 @@ The teams will compete to solve the given problems (typically 10 to 13 problems)
 
 Each problem has the following components:
 
-  * Problem description — the description will be given in English.
-  * Input specification — details on the input format, including the input constraint.
-  * Output specification — details on the output format.
-  * Sample input/output — an explanation for the samples might be provided, optionally.
+  * Problem description --- the description will be given in English.
+  * Input specification --- details on the input format, including the input constraint.
+  * Output specification --- details on the output format.
+  * Sample input/output --- an explanation for the samples might be provided, optionally.
 
 Each problem has a time-limit and memory-limit constraint for its solution, i.e. the solution should run within the allowed time-limit and memory-limit to produce the correct output.
 The time limit and memory limit can be seen in the Problemset tab within DOMjudge, the contest platform.
