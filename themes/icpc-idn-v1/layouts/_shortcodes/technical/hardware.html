@@ -1,0 +1,24 @@
+{{- $firstSection := .Page.FirstSection }}
+
+{{- $imgs := slice }}
+{{- range $key, $value := .Params }}
+  {{- with $firstSection.Resources.Get $value }}
+    {{- $imgs = $imgs | append . }}
+  {{- end }}
+{{- end }}
+
+{{- if not $imgs }}
+  {{- $imgs = slice
+    (resources.Get "images/keyboard.png")
+    (resources.Get "images/mouse.png")
+  }}
+{{- end }}
+
+
+<div class="container-fluid row gx-2 gy-2 mb-3">
+  {{- range $imgs }}
+    <div class="col-sm-6">
+      <img class="rounded img-fluid img-thumbnail" src="{{ .RelPermalink }}" />
+    </div>
+  {{- end }}
+</div>
