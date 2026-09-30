@@ -27,5 +27,3 @@ Golden Tickets are given to top teams who solve at least 1 problem in INC 2025 a
 Only at most one Golden Ticket will be given to each institution, and only the team with the highest rank in INC 2026 from each institution qualifies for the Golden Ticket.
 
 If the number of local teams does not reach 55 teams, the next best teams from the INC General group will be invited to The 2026 ICPC Asia Jakarta Regional Contest.
-
-There is no additional registration fee for local teams.

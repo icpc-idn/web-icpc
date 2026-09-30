@@ -105,15 +105,12 @@ Teams in the Supplementary group should perform the following proctoring rules i
     * One window of code editor, **without any form of generative AI** integrated with the code editor.
     * One window (and one tab) of command prompt/terminal that can only be used to compile/run codes written during contest time.
     * One window of screen recording apps, e.g., OBS.
-
   * All activities performed in the computer must be recorded through screen recording in full screen. These activities include but not limited to:
     * Any activities within the contest platform (reading the problems, submitting solutions, sending clarifications, etc.).
     * Any activities with the soft copy of team reference document (TRD) that has been submitted (see [References](#references) section), including copying from TRD.
     * Any activities within the code editor, including pasting from TRD; and
     * Any activities within the command prompt/terminal.
-
   * The taskbar should be included in the recording. It should display all running apps as well as the current date and time.
-
   * Any kind of communication apps is NOT allowed. Teams are encouraged to work from the same contest area.
 
 An example of a valid screen recording layout can be seen in Fig 2.
