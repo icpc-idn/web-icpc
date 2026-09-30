@@ -25,9 +25,9 @@ Teams will be challenged with a set of 10 to 13 problems to be solved in 5 hours
 
 ### Important Dates
 
-{{< contest/schedule year="2026" src="provincial-inc" >}}
+{{< contest/schedule src="provincial-inc" >}}
 
 
 ### News
 
-{{< contest/news year="2026" src="provincial-inc" >}}
+{{< contest/news src="provincial-inc" >}}

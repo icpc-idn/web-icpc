@@ -1,4 +1,4 @@
-{{- with index hugo.Data (.Get "year") (.Get "src") "technical" }}
+{{- with index hugo.Data .Page.Section (.Get "src") "technical" }}
   <ul>
     {{- range .compilers }}
       <li>{{ .name }}</li>

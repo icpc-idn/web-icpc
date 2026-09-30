@@ -1,4 +1,4 @@
-{{- with index hugo.Data (.Get "year") (.Get "src") "overview" }}
+{{- with index hugo.Data .Page.Section (.Get "src") "overview" }}
   <ul>
     {{- range sort .schedule "startTimestamp" "asc" }}
       {{- $startDate := .startTimestamp | dateFormat "02 January 2006" }}

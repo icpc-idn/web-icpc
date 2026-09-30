@@ -12,9 +12,9 @@ See https://compfest.id/competition/cpc for details.
 
 ### Important Dates
 
-{{< contest/schedule year="2026" src="provincial-compfest" >}}
+{{< contest/schedule src="provincial-compfest" >}}
 
 
 ### News
 
-{{< contest/news year="2026" src="provincial-compfest" >}}
+{{< contest/news src="provincial-compfest" >}}

@@ -22,9 +22,9 @@ programming competition among the universities of the world.
 
 ### Important Dates
 
-{{< contest/schedule year="2026" src="regional-jakarta" >}}
+{{< contest/schedule src="regional-jakarta" >}}
 
 
 ### News
 
-{{< contest/news year="2026" src="regional-jakarta" >}}
+{{< contest/news src="regional-jakarta" >}}

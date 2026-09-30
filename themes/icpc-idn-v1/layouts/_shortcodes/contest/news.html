@@ -1,4 +1,4 @@
-{{- with index hugo.Data (.Get "year") (.Get "src") "overview" }}
+{{- with index hugo.Data .Page.Section (.Get "src") "overview" }}
   {{- range sort .news "timestamp" "desc" }}
     <div class="alert alert-primary">
       <span class="fst-italic">{{ .timestamp | dateFormat "2006-01-02" }}</span>
