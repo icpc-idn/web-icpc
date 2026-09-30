@@ -20,4 +20,4 @@ The next best teams from the General group may also be invited to The 2026 ICPC 
 Some teams from the General group may also receive special invitations (golden tickets), subject to the decision of The 2026 ICPC Regional Asia Jakarta Committee.
 There are no golden tickets for the Supplementary group.
 
-You may refer to [this page](../../../regional/registration/#local-teams) for more details.
+You may refer to [this page](../../../regional/eligibility/#local-teams) for more details.
