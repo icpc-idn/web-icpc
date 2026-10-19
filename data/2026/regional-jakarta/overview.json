@@ -4,7 +4,7 @@
     {
       "title": "Registration",
       "startTimestamp": "2026-08-28T00:00:00+07:00",
-      "endTimestamp": "2026-11-10T00:00:00+07:00"
+      "endTimestamp": "2026-11-10T23:59:59+07:00"
     },
     {
       "title": "Practice Session",
