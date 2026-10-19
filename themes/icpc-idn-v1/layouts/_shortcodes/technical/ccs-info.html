@@ -1,7 +1,9 @@
+{{- $finalized := .Get "finalized" }}
+
 {{- with index hugo.Data .Page.Section (.Get "src") "technical" "ccs" (.Get "type") -}}
   {{- $name := .name -}}
   {{- $version := "version TBA" -}}
-  {{- if .version -}}
+  {{- if and .version $finalized }}
     {{- $version = .version -}}
   {{- end -}}
   {{ $name }} ({{ $version }})
