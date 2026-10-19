@@ -16,27 +16,27 @@
 	<meta property="og:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
-C C&#43;&#43; Java Python 3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
+C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="2026">
-		<meta property="article:published_time" content="2026-09-28T01:26:51+07:00">
-		<meta property="article:modified_time" content="2026-09-28T01:26:51+07:00">
+		<meta property="article:published_time" content="2026-10-19T21:11:46+07:00">
+		<meta property="article:modified_time" content="2026-10-19T21:11:46+07:00">
 
 	<meta itemprop="name" content="Judging System">
 	<meta itemprop="description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
-C C&#43;&#43; Java Python 3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
-	<meta itemprop="datePublished" content="2026-09-28T01:26:51+07:00">
-	<meta itemprop="dateModified" content="2026-09-28T01:26:51+07:00">
-	<meta itemprop="wordCount" content="108">
+C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
+	<meta itemprop="datePublished" content="2026-10-19T21:11:46+07:00">
+	<meta itemprop="dateModified" content="2026-10-19T21:11:46+07:00">
+	<meta itemprop="wordCount" content="202">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Judging System">
 	<meta name="twitter:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
-C C&#43;&#43; Java Python 3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
+C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
 
         <link rel="stylesheet" href="/web-icpc/css/main.03c9371d6ba98a2a5337225feb7b573ede0e0d221386d9ed6ae0f1487b07c59c.css" integrity="sha256-A8k3HWupiipTNyJf63tXPt4ODSIThtntauDxSHsHxZw=" crossorigin="anonymous">
 
@@ -184,7 +184,7 @@ C C&#43;&#43; Java Python 3 Kotlin Note that a Python solution can be much slowe
     <header class="mb-4 w-100">
       <h1>Judging System</h1>
         <time class="fst-italic" datetime='2026-08-02T00:00:00&#43;0700'>
-          Last modified: 28 Sep 2026, 01:26 WIB
+          Last modified: 19 Oct 2026, 21:11 WIB
         </time>
     </header>
 
@@ -195,37 +195,68 @@ as the contest platform.</p>
 <p>Contest system team manual will be released soon.</p>
 <h2 id="programming-languages">Programming Languages</h2>
 <p>The supported programming languages for INC 2026 are:</p>
-
-  <ul>
-      <li>C</li>
-      <li>C&#43;&#43;</li>
-      <li>Java</li>
-      <li>Python 3</li>
-      <li>Kotlin</li>
-  </ul>
-
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>Java</li>
+<li>Python3</li>
+<li>Kotlin</li>
+</ul>
 <p>Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
 Nevertheless, you may use Python as you see fit.</p>
 <p>The grader machines are preconfigured with these compilers:</p>
-
-  <ul>
-      <li>C
-          (TBA)
-      </li>
-      <li>C&#43;&#43;
-          (TBA)
-      </li>
-      <li>Java
-          (TBA)
-      </li>
-      <li>Python 3
-          (TBA)
-      </li>
-      <li>Kotlin
-          (TBA)
-      </li>
-  </ul>
-
+<ul>
+<li>
+  C
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr><td class="col-1">Version</td><td><code>gcc 14.2</code></td></tr>
+        <tr><td>Compile</td><td><code>gcc -x c -std=gnu23 -Wall -O2 -static -pipe -DONLINE_JUDGE -DDOMJUDGE -o &#34;$DEST&#34; &#34;$@&#34; -lm</code></td></tr>
+        <tr><td>Run</td><td><code>&#34;$DEST&#34; &lt; infile &gt; outfile</code></td></tr>
+      </tbody>
+    </table>
+</li>
+<li>
+  C&#43;&#43;
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr><td class="col-1">Version</td><td><code>g&#43;&#43; 14.2</code></td></tr>
+        <tr><td>Compile</td><td><code>g&#43;&#43; -x c&#43;&#43; -std=gnu&#43;&#43;23 -Wall -O2 -static -pipe -DONLINE_JUDGE -DDOMJUDGE -o &#34;$DEST&#34; &#34;$@&#34;</code></td></tr>
+        <tr><td>Run</td><td><code>&#34;$DEST&#34; &lt; infile &gt; outfile</code></td></tr>
+      </tbody>
+    </table>
+</li>
+<li>
+  Java
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr><td class="col-1">Version</td><td><code>openjdk 21.0.10</code></td></tr>
+        <tr><td>Compile</td><td><code>javac -encoding UTF-8 -sourcepath . -d . &#34;$@&#34;</code></td></tr>
+        <tr><td>Run</td><td><code>java -Dfile.encoding=UTF-8 -DONLINE_JUDGE -DDOMJUDGE -XX:&#43;UseSerialGC -Xss${MEMSTACK}k -Xms${MEMLIMIT}k -Xmx${MEMLIMIT}k &#39;$MAINCLASS&#39; &#34;$@&#34; &lt; infile &gt; outfile</code></td></tr>
+      </tbody>
+    </table>
+</li>
+<li>
+  Python 3
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr><td class="col-1">Version</td><td><code>PyPy 7.3.15 (python 3.9.18)</code></td></tr>
+        <tr><td>Compile</td><td><code>pypy3 -m py_compile &#34;$@&#34;</code></td></tr>
+        <tr><td>Run</td><td><code>pypy3 &#34;$@&#34; &lt; infile &gt; outfile</code></td></tr>
+      </tbody>
+    </table>
+</li>
+<li>
+  Kotlin
+    <table class="table table-striped table-bordered">
+      <tbody>
+        <tr><td class="col-1">Version</td><td><code>kotlin 1.7.21</code></td></tr>
+        <tr><td>Compile</td><td><code>kotlinc -d . -Djava.io.tmpdir=/ &#34;$@&#34;</code></td></tr>
+        <tr><td>Run</td><td><code>kotlin -Dfile.encoding=UTF-8 -J-DONLINE_JUDGE -J-DDOMJUDGE -J-XX:&#43;UseSerialGC -J-Xss${MEMSTACK}k -J-Xms${MEMLIMIT}k -J-Xmx${MEMLIMIT}k &#39;$MAINCLASS&#39; &#34;$@&#34; &lt; infile &gt; outfile</code></td></tr>
+      </tbody>
+    </table>
+</li>
+</ul>
 
   </article>
 </span>
