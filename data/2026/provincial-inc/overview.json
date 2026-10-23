@@ -20,6 +20,10 @@
   ],
   "news": [
     {
+      "timestamp": "2026-10-23T15:00:00+07:00",
+      "message": "Rules are updated!<ul><li>Change the deadline of Team Reference Document (TRD) to October 24, 2026, 23:59 WIB.</li><li>There will be 45-55 teams from all provincials to advance to The 2026 ICPC Regional Asia Jakarta.</li><li>Allow the programming language Kotlin to be used in the competition.</li><li>Replace the Python interpreter with PyPy.</li><li>Add a FAQ regarding auto-complete.</li></ul>"
+    },
+    {
       "timestamp": "2026-10-11T00:00:00+07:00",
       "message": "<b>REGISTRATION EXTENDED! Only 2 days left to register for Indonesia National Contest 2026!</b> 🔥<br /><br />Good news! We’ve extended the registration period, so you still have time to gather your team and secure your spot in one of the biggest programming contests!"
     },
