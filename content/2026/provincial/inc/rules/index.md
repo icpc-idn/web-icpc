@@ -157,7 +157,7 @@ Teams can only access references such as:
     * It must have your team name and university name on the first page.
     * All texts and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 meter.
     * The file must be a read-only PDF.
-    * **You must submit your team's TRD** through the following [form](https://forms.gle/EL1dmEYaQWWFBLvm8) before **October 24, 2026, 23:59 WIB**. During the contest, you can only access the same version of TRD that you submitted.
+    * **You must submit your team's TRD** through the following [form](https://forms.gle/EL1dmEYaQWWFBLvm8) before **October 24, 2026, 23:59 WIB**. During the contest, you can only access the same version of TRD that you submitted. You can open your TRD locally from your device.
   * Official Programming Language References, which will be given inside the contest platform. You are NOT allowed to open other language references.
 
 The action of copying codes from the references and pasting it to your editor must exist in your screen recording.
