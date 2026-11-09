@@ -13,27 +13,27 @@
 <meta name="generator" content="Hugo 0.164.0"><meta property="og:url" content="https://icpc-idn.github.io/web-icpc/2026/regional/judging/">
 	<meta property="og:site_name" content="ICPC Indonesia">
 	<meta property="og:title" content="Judging System">
-	<meta property="og:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
+	<meta property="og:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (10.0.0DEV/0bea5a8556 with modification) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
 C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="2026">
-		<meta property="article:published_time" content="2026-10-19T21:11:46+07:00">
-		<meta property="article:modified_time" content="2026-10-19T21:11:46+07:00">
+		<meta property="article:published_time" content="2026-11-09T19:55:58+07:00">
+		<meta property="article:modified_time" content="2026-11-09T19:55:58+07:00">
 
 	<meta itemprop="name" content="Judging System">
-	<meta itemprop="description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
+	<meta itemprop="description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (10.0.0DEV/0bea5a8556 with modification) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
 C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
-	<meta itemprop="datePublished" content="2026-10-19T21:11:46+07:00">
-	<meta itemprop="dateModified" content="2026-10-19T21:11:46+07:00">
-	<meta itemprop="wordCount" content="202">
+	<meta itemprop="datePublished" content="2026-11-09T19:55:58+07:00">
+	<meta itemprop="dateModified" content="2026-11-09T19:55:58+07:00">
+	<meta itemprop="wordCount" content="203">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Judging System">
-	<meta name="twitter:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (version TBA) as the contest platform.
+	<meta name="twitter:description" content="The 2026 ICPC Asia Jakarta Regional Contest use DOMjudge (10.0.0DEV/0bea5a8556 with modification) as the contest platform.
 Contest system team manual will be released soon.
 Programming Languages The supported programming languages for INC 2026 are:
 C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used. Nevertheless, you may use Python as you see fit.">
@@ -184,12 +184,12 @@ C C&#43;&#43; Java Python3 Kotlin Note that a Python solution can be much slower
     <header class="mb-4 w-100">
       <h1>Judging System</h1>
         <time class="fst-italic" datetime='2026-08-02T00:00:00&#43;0700'>
-          Last modified: 19 Oct 2026, 21:11 WIB
+          Last modified: 09 Nov 2026, 19:55 WIB
         </time>
     </header>
 
     <p>The 2026 ICPC Asia Jakarta Regional Contest use
-DOMjudge (version TBA)
+DOMjudge (10.0.0DEV/0bea5a8556 with modification)
 
 as the contest platform.</p>
 <p>Contest system team manual will be released soon.</p>
@@ -202,7 +202,7 @@ as the contest platform.</p>
 <li>Python3</li>
 <li>Kotlin</li>
 </ul>
-<p>Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
+<p>Note that a Python solution can be much slower compared to the other two programming languages, thus, we <strong>do not guarantee</strong> all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
 Nevertheless, you may use Python as you see fit.</p>
 <p>The grader machines are preconfigured with these compilers:</p>
 <ul>
@@ -230,7 +230,7 @@ Nevertheless, you may use Python as you see fit.</p>
   Java
     <table class="table table-striped table-bordered">
       <tbody>
-        <tr><td class="col-1">Version</td><td><code>openjdk 21.0.10</code></td></tr>
+        <tr><td class="col-1">Version</td><td><code>openjdk 21.0.12.1</code></td></tr>
         <tr><td>Compile</td><td><code>javac -encoding UTF-8 -sourcepath . -d . &#34;$@&#34;</code></td></tr>
         <tr><td>Run</td><td><code>java -Dfile.encoding=UTF-8 -DONLINE_JUDGE -DDOMJUDGE -XX:&#43;UseSerialGC -Xss${MEMSTACK}k -Xms${MEMLIMIT}k -Xmx${MEMLIMIT}k &#39;$MAINCLASS&#39; &#34;$@&#34; &lt; infile &gt; outfile</code></td></tr>
       </tbody>
