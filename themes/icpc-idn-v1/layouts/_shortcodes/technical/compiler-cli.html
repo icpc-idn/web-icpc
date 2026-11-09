@@ -1,0 +1,55 @@
+{{- $divClass := .Get "class" }}
+{{- $bodyClass := .Get "bodyClass" }}
+{{- $languages := split (strings.TrimSpace .Inner) "\n" }}
+
+{{- with index hugo.Data .Page.Section (.Get "src") "technical" }}
+  {{- $compilers := .compilers }}
+  {{- $cli := .cli }}
+
+  <div class="{{ $divClass }}">
+    <table class="table table-light table-sm table-hover">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Compile Command</th>
+          <th scope="col">Run Command</th>
+        </tr>
+      </thead>
+
+      <tbody class="{{ $bodyClass }}">
+        {{- range $key := $languages }}
+          {{- $cleanKey := strings.TrimSpace $key }}
+
+          {{- with index $compilers $cleanKey }}
+            <tr>
+              <td>{{ .name }}</td>
+              {{- with index $cli $cleanKey "compile" }}
+                <td>{{ partial "inline/technical/compiler-cli/entries" (dict "src" . "format" "%s ${filenames}") }}</td>
+              {{- else }}
+                <td>TBA</td>
+              {{- end }}
+              {{- with index $cli $cleanKey "run" }}
+                <td>{{ partial "inline/technical/compiler-cli/entries" (dict "src" .) }}</td>
+              {{- else }}
+                <td>TBA</td>
+              {{- end }}
+            </tr>
+          {{- end }}
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+{{- else }}
+  <div class="alert alert-secondary fst-italic">Undecided yet. Please come back later.</div>
+{{- end }}
+
+
+{{- define "_partials/inline/technical/compiler-cli/entries" }}
+  {{- $format := .format | default "%s" }}
+
+  {{- with .src }}
+    {{- range . }}
+      <code>{{ printf $format . }}</code><br />
+    {{- end }}
+  {{- end }}
+{{- end }}

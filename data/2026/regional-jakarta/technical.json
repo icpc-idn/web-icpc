@@ -36,5 +36,50 @@
       "compileOpts": "kotlinc -d . -Djava.io.tmpdir=/ \"$@\"",
       "runOpts": "kotlin -Dfile.encoding=UTF-8 -J-DONLINE_JUDGE -J-DDOMJUDGE -J-XX:+UseSerialGC -J-Xss${MEMSTACK}k -J-Xms${MEMLIMIT}k -J-Xmx${MEMLIMIT}k '$MAINCLASS' \"$@\" < infile > outfile"
     }
+  },
+  "cli": {
+    "c": {
+      "compile": [
+        "compilegcc"
+      ],
+      "run": [
+        "runc"
+      ]
+    },
+    "cpp": {
+      "compile": [
+        "compileg++",
+        "compilec++",
+        "compilecpp"
+      ],
+      "run": [
+        "runc++",
+        "runcpp"
+      ]
+    },
+    "java": {
+      "compile": [
+        "compilejava"
+      ],
+      "run": [
+        "runjava"
+      ]
+    },
+    "py3": {
+      "compile": [
+        "compilepython3"
+      ],
+      "run": [
+        "runpython3"
+      ]
+    },
+    "kotlin": {
+      "compile": [
+        "compilekotlin"
+      ],
+      "run": [
+        "runkotlin"
+      ]
+    }
   }
 }
