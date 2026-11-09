@@ -6,7 +6,7 @@ weight = 41
 
 
 The 2026 ICPC Asia Jakarta Regional Contest use
-{{< technical/ccs-info src="regional-jakarta" finalized=false type="primary" >}}
+{{< technical/ccs-info src="regional-jakarta" finalized=true type="primary" >}}
 as the contest platform.
 
 Contest system team manual will be released soon.
@@ -22,7 +22,7 @@ The supported programming languages for INC 2026 are:
   * Python3
   * Kotlin
 
-Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
+Note that a Python solution can be much slower compared to the other two programming languages, thus, we **do not guarantee** all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
 Nevertheless, you may use Python as you see fit.
 
 The grader machines are preconfigured with these compilers:
