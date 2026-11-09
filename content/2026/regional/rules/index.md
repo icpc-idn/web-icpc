@@ -21,7 +21,7 @@ Each problem has the following components:
   * Sample input/output --- an explanation for the samples might be provided, optionally.
 
 Each problem has a time-limit and memory-limit constraint for its solution, i.e. the solution should run within the allowed time-limit and memory-limit to produce the correct output.
-The time limit and memory limit will be broadcasted at the beginning of the contest through the contest management system (DOMjudge).
+The time limit and memory limit can be seen in the Problemset tab within the contest management system (DOMjudge).
 
 You may find the problems from the previous ICPC as examples in [TLX](https://tlx.toki.id/problems/problemsets?archive=icpc).
 
@@ -64,31 +64,37 @@ All teams should uphold the sportsmanship and the spirit of fair competition.
 
 ### Ranks
 
-Teams are ranked according to the most problems solved.
-Teams who solve the same number of problems are ranked by the least total time.
+Teams are ranked according to:
+
+  1. Most number of problems solved.
+  1. If (1) tied, then least TOTAL TIME.
+  1. If (1) and (2) are tied, then the earliest time of submission of the last accepted problem.
+
 The total time is the sum of the time consumed for each solved problem (in minutes).
 The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first correct solution plus 20 penalty minutes for every previously incorrect solution for that problem.
 {{< text/underline >}}Submissions with a **{{< text/verdict COMPILER-ERROR >}}** verdict will not be penalized{{< /text/underline >}}.
 
 
-### Team Notebook & Additional Items
+### References and Additional Items
 
-Each team may bring a reference material (also called *team notebook*) to the contest with the following limitation.
+Each team may bring a Team Reference Document (TRD, also called *team notebook*) to the contest with the following limitation:
 
-  * It may contain up to 25 pages of reference materials on letter-size or A4-size paper; page number should be printed/written on each page.
-  * Team name and university name should be printed/written on the top-right of the first page.
+  * It contains up to 25 pages of reference materials on letter-size or A4-size paper.
+  * It should have page number printed/written on each page.
+  * It must have your team name and university name on the first page.
   * It may contain code listings, algorithms, hints, or any other necessary notes.
   * At most three exact copies per team.
-  * Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 (half) meters.
+  * All texts and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 (half) meters.
 
 Each team may also bring the following items.
 
-  * At most 5 blank papers/graph papers (the committee will provide blank papers)
+  * At most 5 blank papers/graph papers (the committee will provide blank papers).
   * Stationery, e.g., pen, pencil, eraser, ruler, etc.
   * English dictionary (only printed; no electronic version is allowed).
   * Plush dolls/stuffed animals (as long as it will not disturb other teams).
 
-Please bring the team notebook and additional items (if any) DURING THE PRACTICE SESSION.
+Please submit the team notebook DURING REGISTRATION SESSION.
+Other additional items (if any) must be brought DURING THE PRACTICE SESSION.
 Then, leave the items on your desk.
 All those items are subject to judges' inspection before the contest.
 No other materials are allowed to be in the contestant's area.
