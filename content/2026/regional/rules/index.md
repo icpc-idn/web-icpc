@@ -9,6 +9,17 @@ menuTitle = 'Rules'
 +++
 
 
+### Onsite General Rules
+
+Due to the general policy at BINUS University, please make sure you comply with the following rules when visiting BINUS University:
+
+  * You are not allowed to wear shorts or short skirts.
+  * You are not allowed to wear sandals.
+
+Contestants and coaches should wear the contest T-shirt as an outer-most garment at all times.
+Any additional clothing must be worn underneath the contest T-shirt. Contest T-shirts will be distributed on the onsite registration.
+
+
 ### The Problems
 
 The teams will compete to solve the given problems (typically 10 to 14 problems) in 5 hours of contest time.
@@ -86,6 +97,9 @@ Each team may bring a Team Reference Document (TRD, also called *team notebook*)
   * At most three exact copies per team.
   * All texts and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 (half) meters.
 
+{{< text/color "red" >}}**Please bring the team notebook DURING THE REGISTRATION**{{< /text/color >}} and submit it to the committee as part of the registration procedure.
+Any team notebook submission after the registration will be rejected by the judges.
+
 Each team may also bring the following items.
 
   * At most 5 blank papers/graph papers (the committee will provide blank papers).
@@ -93,8 +107,8 @@ Each team may also bring the following items.
   * English dictionary (only printed; no electronic version is allowed).
   * Plush dolls/stuffed animals (as long as it will not disturb other teams).
 
-Please submit the team notebook DURING REGISTRATION SESSION.
-Other additional items (if any) must be brought DURING THE PRACTICE SESSION.
+If there are any additional items you want to bring to the contest, bring the items to the
+practice session.
 Then, leave the items on your desk.
 All those items are subject to judges' inspection before the contest.
 No other materials are allowed to be in the contestant's area.
@@ -114,14 +128,3 @@ Teams are {{< text/color "red" >}}**NOT ALLOWED**{{< /text/color >}} to substitu
 
 All team members must attend all required events, particularly, the Onsite Registration, Opening Ceremony, Practice/Trial Session, Contest Proper, and Closing Ceremony.
 Failure to attend any required event will result in disqualification and forfeiture of prizes.
-
-
-### Onsite General Rules
-
-Due to the general policy at BINUS University, please make sure you comply with the following rules when visiting BINUS University:
-
-  * You are not allowed to wear shorts or short skirts.
-  * You are not allowed to wear sandals.
-
-Contestants and coaches should wear the contest T-shirt as an outer-most garment at all times.
-Any additional clothing must be worn underneath the contest T-shirt. Contest T-shirts will be distributed on the onsite registration.
