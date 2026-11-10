@@ -7,6 +7,17 @@ menuTitle = 'ICPC Asia Jakarta'
 +++
 
 
+{{< contest/sponsors
+    "logo-jetbrains.svg"
+    "logo-huawei.svg"
+    "logo-janestreet.svg"
+    >}}
+
+{{< contest/sponsors
+    "logo-binus.svg"
+    "logo-cloudeka.svg"
+    >}}
+
 International Collegiate Programming Contest is an annual multi-tiered computer
 programming competition among the universities of the world.
 
@@ -39,3 +50,15 @@ institutions are the ranks of the highest ranked team of each institution.
 ### News
 
 {{< contest/news src="regional-jakarta" >}}
+
+
+### Contacts
+
+Committee of the 2026 ICPC Asia Jakarta Regional Contest<br />
+BINUS University - Anggrek Campus<br />
+Jl. Kebon Jeruk Raya No. 27, Kebun Jeruk<br />
+Jakarta Barat 11530<br />
+Indonesia
+
+Phone: +6221 29779100 Ext. 7427<br />
+Email: lombati@binus.edu, icpcbinus@gmail.com
