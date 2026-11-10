@@ -1,6 +1,7 @@
 +++
 title = 'INC Advancement'
 date = '2026-08-02T00:00:00+07:00'
+lastmod = '2026-10-23T15:10:23+07:00'
 weight = 91
 
 [params]
