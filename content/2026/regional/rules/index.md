@@ -49,12 +49,12 @@ A problem is considered **solved** by the team if a verdict of "{{< text/verdict
 
 Each submission may get one of these responses from DOMjudge:
 
-  * **{{< text/verdict CORRECT >}}** – the solution produced the correct output within the time and memory limit without any error. The corresponding problem is considered solved.
-  * **{{< text/verdict WRONG-ANSWER >}}** – the solution did not produce the correct output.
-  * **{{< text/verdict RUN-ERROR >}}** – the solution crashed (runtime-error) when processing the test data or the solution consumed more memory than the allowed memory limit for the problem (Memory Limit Exceeded).
-  * **{{< text/verdict TIMELIMIT >}}** – the solution took more time to produce the output than the allowed time limit for that problem.
-  * **{{< text/verdict NO-OUTPUT >}}** – the solution produced no output.
-  * **{{< text/verdict COMPILER-ERROR >}}** – the solution could not be compiled.
+  * **{{< text/verdict CORRECT >}}** --- the solution produced the correct output within the time and memory limit without any error. The corresponding problem is considered solved.
+  * **{{< text/verdict WRONG-ANSWER >}}** --- the solution did not produce the correct output.
+  * **{{< text/verdict RUN-ERROR >}}** --- the solution crashed (runtime-error) when processing the test data or the solution consumed more memory than the allowed memory limit for the problem (Memory Limit Exceeded).
+  * **{{< text/verdict TIMELIMIT >}}** --- the solution took more time to produce the output than the allowed time limit for that problem.
+  * **{{< text/verdict NO-OUTPUT >}}** --- the solution produced no output.
+  * **{{< text/verdict COMPILER-ERROR >}}** --- the solution could not be compiled.
 
 No other details will be given to each response.
 
