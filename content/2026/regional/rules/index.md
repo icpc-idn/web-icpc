@@ -16,7 +16,8 @@ Due to the general policy at BINUS University, please make sure you comply with 
   * You are not allowed to wear sandals.
 
 Contestants and coaches should wear the contest T-shirt as an outer-most garment at all times.
-Any additional clothing must be worn underneath the contest T-shirt. Contest T-shirts will be distributed on the onsite registration.
+Any additional clothing must be worn underneath the contest T-shirt.
+Contest T-shirts will be distributed on the onsite registration.
 
 
 ### The Problems
@@ -51,7 +52,7 @@ Each submission may get one of these responses from DOMjudge:
   * **{{< text/verdict CORRECT >}}** – the solution produced the correct output within the time and memory limit without any error. The corresponding problem is considered solved.
   * **{{< text/verdict WRONG-ANSWER >}}** – the solution did not produce the correct output.
   * **{{< text/verdict RUN-ERROR >}}** – the solution crashed (runtime-error) when processing the test data or the solution consumed more memory than the allowed memory limit for the problem (Memory Limit Exceeded).
-  * **{{< text/verdict TIME-LIMIT >}}** – the solution took more time to produce the output than the allowed time limit for that problem.
+  * **{{< text/verdict TIMELIMIT >}}** – the solution took more time to produce the output than the allowed time limit for that problem.
   * **{{< text/verdict NO-OUTPUT >}}** – the solution produced no output.
   * **{{< text/verdict COMPILER-ERROR >}}** – the solution could not be compiled.
 
@@ -60,7 +61,7 @@ No other details will be given to each response.
 
 ### Fair Competition
 
-A team will be {{< text/color "red" >}}**disqualified**{{< /text/color >}} if the team is found to be cheating.
+A team may be {{< text/color "red" >}}**disqualified**{{< /text/color >}} if the team is found to be cheating.
 Cheating includes any attempt or activity by an individual, group, team members, and/or coach, to enhance or diminish their performance or that of other teams using methods that are unfair to the contest.
 This includes but is not limited to efforts such as:
 
@@ -77,44 +78,42 @@ All teams should uphold the sportsmanship and the spirit of fair competition.
 Teams are ranked according to:
 
   1. Most number of problems solved.
-  1. If (1) tied, then least TOTAL TIME.
-  1. If (1) and (2) are tied, then the earliest time of submission of the last accepted problem.
+  2. If (1) tied, then least TOTAL TIME.
+  3. If (1) and (2) are tied, then the earliest time of submission of the last accepted problem.
 
 The total time is the sum of the time consumed for each solved problem (in minutes).
 The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first correct solution plus 20 penalty minutes for every previously incorrect solution for that problem.
 {{< text/underline >}}Submissions with a **{{< text/verdict COMPILER-ERROR >}}** verdict will not be penalized{{< /text/underline >}}.
 
 
-### References and Additional Items
+### References & Additional Items
 
 Each team may bring a Team Reference Document (TRD, also called *team notebook*) to the contest with the following limitation:
 
-  * It contains up to 25 pages of reference materials on letter-size or A4-size paper.
-  * It should have page number printed/written on each page.
-  * It must have your team name and university name on the first page.
+  * It may contain up to 25 pages of reference materials on letter-size or A4-size paper; page number should be printed/written on each page.
+  * Team name and university name should be printed/written on the top-right of the first page.
   * It may contain code listings, algorithms, hints, or any other necessary notes.
   * At most three exact copies per team.
-  * All texts and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 (half) meters.
+  * Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 0.5 (half) meters.
 
 {{< text/color "red" >}}**Please bring the team notebook DURING THE REGISTRATION**{{< /text/color >}} and submit it to the committee as part of the registration procedure.
 Any team notebook submission after the registration will be rejected by the judges.
 
-Each team may also bring the following items.
+Each team may also bring the following items:
 
-  * At most 5 blank papers/graph papers (the committee will provide blank papers).
+  * At most 5 blank papers/graph papers (the committee will provide blank papers)
   * Stationery, e.g., pen, pencil, eraser, ruler, etc.
-  * English dictionary (only printed; no electronic version is allowed).
-  * Plush dolls/stuffed animals (as long as it will not disturb other teams).
+  * English dictionary (only printed; no electronic version is allowed)
+  * Plush dolls/stuffed animals (as long as it will not disturb other teams)
 
-If there are any additional items you want to bring to the contest, bring the items to the
-practice session.
+If there are any additional items you want to bring to the contest, bring the items to the practice session.
 Then, leave the items on your desk.
 All those items are subject to judges' inspection before the contest.
 No other materials are allowed to be in the contestant's area.
 
 Additional blank papers will be provided to each team.
 
-Teams are **not allowed** to bring the following items to the contest area.
+Teams are **not allowed** to bring the following items to the contest area:
 
   * Any digital materials, e.g., e-books, softcopy codes, etc.
   * Any digital devices, e.g., flash disks, external HDD, etc.

@@ -20,9 +20,9 @@ Contest system team manual will be released soon.
 The supported programming languages are:
 
   * C
-  * C++
+  * C++23
   * Java
-  * Python3
+  * Python 3
   * Kotlin
 
 Note that a Python solution can be much slower compared to the other two programming languages, thus, we do not guarantee all the problems can be solved with the time-limit constraint with Python even though the same algorithm is being used.
