@@ -2,7 +2,7 @@
   "ccs": {
     "primary": {
       "name": "DOMjudge",
-      "version": ""
+      "version": "10.0.0DEV/0bea5a8556 with modification"
     }
   },
   "compilers": {
@@ -20,7 +20,7 @@
     },
     "java": {
       "name": "Java",
-      "version": "openjdk 21.0.10",
+      "version": "openjdk 21.0.12.1",
       "compileOpts": "javac -encoding UTF-8 -sourcepath . -d . \"$@\"",
       "runOpts": "java -Dfile.encoding=UTF-8 -DONLINE_JUDGE -DDOMJUDGE -XX:+UseSerialGC -Xss${MEMSTACK}k -Xms${MEMLIMIT}k -Xmx${MEMLIMIT}k '$MAINCLASS' \"$@\" < infile > outfile"
     },

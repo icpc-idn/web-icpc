@@ -9,7 +9,7 @@ menuTitle = 'Judging System'
 
 
 The 2026 ICPC Asia Jakarta Regional Contest use
-{{< technical/ccs-info src="regional-jakarta" finalized=false type="primary" >}}
+{{< technical/ccs-info src="regional-jakarta" finalized=true type="primary" >}}
 as the contest platform.
 
 Contest system team manual will be released soon.
