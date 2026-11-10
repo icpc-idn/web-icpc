@@ -1,6 +1,7 @@
 +++
 title = 'The 2026 ICPC Indonesia COMPFEST 18 Multi-Provincial Programming Contest'
 date = '2026-08-02T00:00:00+07:00'
+lastmod = '2026-09-28T01:26:51+07:00'
 
 [params]
 menuTitle = 'Compfest'

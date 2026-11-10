@@ -1,6 +1,7 @@
 +++
 title = 'INC Contest Rules'
 date = '2026-08-02T00:00:00+07:00'
+lastmod = '2026-10-24T15:50:51+07:00'
 weight = 31
 
 [params]
