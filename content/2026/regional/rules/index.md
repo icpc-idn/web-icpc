@@ -1,11 +1,10 @@
 +++
-title = 'ICPC Regional Rules'
+title = 'ICPC Jakarta Competition Rules'
 date = '2026-11-07T00:00:00+07:00'
-draft = true
 weight = 31
 
 [params]
-menuTitle = 'Rules'
+menuTitle = 'Competition Rules'
 +++
 
 

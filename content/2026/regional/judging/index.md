@@ -1,7 +1,10 @@
 +++
-title = 'Judging System'
+title = 'ICPC Jakarta Judging System'
 date = '2026-08-02T00:00:00+07:00'
 weight = 41
+
+[params]
+menuTitle = 'Judging System'
 +++
 
 
@@ -14,7 +17,7 @@ Contest system team manual will be released soon.
 
 ## Programming Languages
 
-The supported programming languages for INC 2026 are:
+The supported programming languages are:
 
   * C
   * C++
