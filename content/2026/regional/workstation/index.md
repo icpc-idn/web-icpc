@@ -39,22 +39,21 @@ All teams will have the same PC specification.
 
 ### Software
 
-  * **OS**: Ubuntu 24.04 (64-bit) with Linux kernel 6.8.0-45-generic
+  * **OS**: Ubuntu 24.04 (64-bit) <!-- with Linux kernel 6.8.0-45-generic -->
   * **Desktop**: GNOME
   * **Editors**:
     * vi/vim
-    * gvim
+    * neovim
     * emacs
     * gedit
     * geany
-    * kate
   * **IDEs**:
     * Eclipse
     * Visual Studio Code
     * Sublime Text 4
 
 {{< text/alert "warning" "text-dark" >}}
-  Note regarding IDEs: all IDEs will have any internal “AI” tools disabled.
+  Note regarding IDEs: all IDEs will have any internal "AI" tools disabled.
 {{< /text/alert >}}
 
 
