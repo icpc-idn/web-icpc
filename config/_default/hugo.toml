@@ -12,5 +12,8 @@ dir = ':cacheDir/images'
 [services.rss]
 limit = 25
 
+[markup.goldmark.parser.attribute]
+block = true
+
 [markup.goldmark.renderer]
 unsafe = true

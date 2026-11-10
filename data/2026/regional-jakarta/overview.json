@@ -20,6 +20,10 @@
   ],
   "news": [
     {
+      "timestamp": "2026-10-19T00:00:00+07:00",
+      "message": "Registration for international teams is now closed, as the participant quota has been fully reached.<br /><br />Teams that are still interested in participating may submit their registration to be placed on the waiting list. Please contact the organizing committee at <a href=\"mailto:lombati@binus.edu\">lombati@binus.edu</a>."
+    },
+    {
       "timestamp": "2026-08-28T00:00:00+07:00",
       "message": "Registration is open at <a href=\"https://icpc.global/regionals/finder/Jakarta-2027\">https://icpc.global/regionals/finder/Jakarta-2027</a>"
     }
