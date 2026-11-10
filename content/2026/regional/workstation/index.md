@@ -11,6 +11,7 @@ menuTitle = 'Workstation'
 Each team will be provided with one workstation, shared between team members.
 All teams will have the same PC specification.
 
+
 ### Hardware
 
   * **System unit**: Lenovo Desktop TC Neo 50q
@@ -19,14 +20,14 @@ All teams will have the same PC specification.
     * RAM: 8GB DDR5-5600MHz SODIMM
     * Disk: 1TB SSD M.2 PCIe Gen4
   * **External screen**: Lenovo ThinkVision E22-30 (21.5-inch)
-  * **External keyboard**: TBA <!-- Lenovo Keyboard, US ANSI 104 keys -->
-  * **Mouse**: Generic wheel mouse
+  * **External keyboard**: [Lenovo 300 USB Keyboard](https://support.lenovo.com/id/en/accessories/acc100331-lenovo-300-usb-keyboard-overview-and-service-parts)
+  * **Mouse**: [Lenovo Essential USB Mouse](https://support.lenovo.com/id/en/accessories/acc500073-lenovo-essential-usb-mouse-overview-and-service-parts)
 
 {{< technical/hardware
     workstation=""
     monitor=""
-    keyboard=""
-    mouse=""
+    keyboard="assets/keyboard.png"
+    mouse="assets/mouse.jpg"
     >}}
 
 {{< text/alert "warning" "text-dark" >}}
@@ -86,7 +87,7 @@ activity detrimental to the contest and subject to disqualification.
 Details will be announced during technical meeting.
 
 
-### Backups and Takeouts
+### Backups
 
 Files under home directory (including subdirectories) are backed-up to an external machines for recovery purposes.
 The backup process will be executed **every 5 minutes**.
