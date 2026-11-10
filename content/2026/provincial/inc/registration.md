@@ -13,7 +13,7 @@ Coaches are responsible for completing the team registration.
 
   * Go to https://icpc.global/private/teamRegistration.
   * Select "Asia Pacific Contests" as the region.
-  * Select "The 2026 ICPC Asia Jakarta Onsite Regional Contest", then select "The 2026 ICPC Asia Jakarta – Indonesia National Contest", and choose "Indonesia National On-Line Contest". Please log in or sign up to access the registration site.
+  * Select "The 2026 ICPC Asia Jakarta Onsite Regional Contest", then select "The 2026 ICPC Asia Jakarta - Indonesia National Contest", and choose "Indonesia National On-Line Contest". Please log in or sign up to access the registration site.
   * Select your team origin institution. If your institution is not listed, click "Not in the list? Suggest New Institution" and submit your institution.
   * Enter your team name and team members. If a team member cannot be found in the system, click "Register new person" to register the team member.
   * If you are registering more than one team, click the "+" button and repeat the previous step.

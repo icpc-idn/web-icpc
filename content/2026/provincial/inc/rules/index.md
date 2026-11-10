@@ -1,11 +1,11 @@
 +++
-title = 'INC Contest Rules'
+title = 'INC Competition Rules'
 date = '2026-08-02T00:00:00+07:00'
 lastmod = '2026-10-24T15:50:51+07:00'
 weight = 31
 
 [params]
-menuTitle = 'Rules'
+menuTitle = 'Competition Rules'
 +++
 
 
@@ -45,16 +45,16 @@ Clarification will always be open during the contest time.
 
 Each team should submit their solution (source code) through the contest management system (DOMjudge) anytime during the contest time.
 
-A problem is considered solved by the team if a verdict of "{{< text/verdict correct >}}" is given to the corresponding submission by DOMjudge.
+A problem is considered **solved** by the team if a verdict of "{{< text/verdict correct >}}" is given to the corresponding submission by DOMjudge.
 
 Each submission may get one of these responses from DOMjudge:
 
-  * **{{< text/verdict CORRECT >}}** – the solution produced the correct output within the time and memory limit without any error. The corresponding problem is considered solved.
-  * **{{< text/verdict WRONG-ANSWER >}}** – the solution did not produce the correct output.
-  * **{{< text/verdict RUN-ERROR >}}** – the solution crashed (runtime-error) when processing the test data or the solution consumed more memory than the allowed memory limit for the problem (Memory Limit Exceeded).
-  * **{{< text/verdict TIME-LIMIT >}}** – the solution took more time to produce the output than the allowed time limit for that problem.
-  * **{{< text/verdict NO-OUTPUT >}}** – the solution produced no output.
-  * **{{< text/verdict COMPILER-ERROR >}}** – the solution could not be compiled.
+  * **{{< text/verdict CORRECT >}}** --- the solution produced the correct output within the time and memory limit without any error. The corresponding problem is considered solved.
+  * **{{< text/verdict WRONG-ANSWER >}}** --- the solution did not produce the correct output.
+  * **{{< text/verdict RUN-ERROR >}}** --- the solution crashed (runtime-error) when processing the test data or the solution consumed more memory than the allowed memory limit for the problem (Memory Limit Exceeded).
+  * **{{< text/verdict TIMELIMIT >}}** --- the solution took more time to produce the output than the allowed time limit for that problem.
+  * **{{< text/verdict NO-OUTPUT >}}** --- the solution produced no output.
+  * **{{< text/verdict COMPILER-ERROR >}}** --- the solution could not be compiled.
 
 No other details will be given to each response.
 
@@ -185,8 +185,8 @@ All teams should uphold the sportsmanship and the spirit of fair competition.
 Teams are ranked according to:
 
   1. Most number of problems solved.
-  1. If (1) tied, then least TOTAL TIME.
-  1. If (1) and (2) are tied, then the earliest time of submission of the last accepted problem.
+  2. If (1) tied, then least TOTAL TIME.
+  3. If (1) and (2) are tied, then the earliest time of submission of the last accepted problem.
 
 The total time is the sum of the time consumed for each solved problem (in minutes).
 The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first correct solution plus 20 penalty minutes for every previously incorrect solution for that problem.
