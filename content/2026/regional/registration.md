@@ -8,6 +8,19 @@ menuTitle = 'Registration'
 +++
 
 
+{{< text/alert "warning" "text-dark" >}}
+  **[INFORMATION - Registration Closed]**
+
+  Registration for international teams is now closed, as the participant quota has been fully reached.
+
+  Teams that are still interested in participating may submit their registration to be placed on the waiting list. Placement on the waiting list does not guarantee a spot in the competition. Should a slot become available, teams on the waiting list may be contacted by the organizing committee.
+
+  For further information regarding the waiting list, please contact the organizing committee at lombati@binus.edu.
+
+  Thank you for your interest in the 2026 ICPC Asia Jakarta Regional Contest. We appreciate your enthusiasm and look forward to welcoming you to the competition.
+{{< /text/alert >}}
+
+
 All Indonesian teams must follow selection rules described in [Eligibility Rules](../eligibility#local-teams) page, meanwhile all foreign teams from the Asia Pacific and other super-regions may register directly to The 2026 ICPC Asia Jakarta Regional Contest.
 
 Coaches are responsible for completing the team registration via ICPC global.
